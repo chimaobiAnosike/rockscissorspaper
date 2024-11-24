@@ -59,7 +59,7 @@ function playRound(playerSelection,computerSelection){
         gameStarted = false;
     }
     else if(computerScore === 5){
-        result.textContent += `. `Computer Wins`;
+        result.textContent += `. Computer Wins`;
         gameStarted = false;
     }
 }
