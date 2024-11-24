@@ -1,0 +1,62 @@
+html{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+}
+.container{
+    width: 80vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.game-text{
+    margin-bottom: 25px;
+    color: #fff;
+    font-size: 1.5rem;
+    width: 40rem;
+}
+.btn-class{
+    margin-bottom: 20px;
+}
+button{
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: .3rem;
+    padding: 10px;
+    border: none;
+    font-weight: 700;
+    background-color: #ff3;
+}
+#rock-btn:hover,#paper-btn:hover,#scissors-btn:hover,#start:hover,#stop:hover{
+    background: #000;
+    color: #fff;
+}
+#rock-btn:active,#paper-btn:active,#scissors-btn:active{
+    background: #ffffffa3;
+    color: #1e1c1cca;
+}
+
+.result{
+    height: 10rem;
+    width: 20rem;
+    box-shadow: inset 0.5px 0.5px 1px 1px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scoreboard{
+
+}
